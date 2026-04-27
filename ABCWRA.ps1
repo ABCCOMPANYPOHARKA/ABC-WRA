@@ -1,7 +1,7 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://github.com/ABCCOMPANYPOHARKA/ABC-WRA/blob/main/ABC%20WRA.cmd'
+$DownloadURL = 'https://github.com/ABCCOMPANYPOHARKA/ABC-WRA/blob/main/ABCWRA.ps1'
 
 $FilePath = "$env:TEMP\ABCWRA.cmd"
 
