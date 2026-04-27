@@ -118,18 +118,18 @@ exit /b
 :SETKEY
 echo ^- Registering your copy of WinRAR.
 (
-  echo RAR registration data
-  echo The Godfather
-  echo ABC COMPANY POHARKA
-  echo UID=c881245b7b1a78985cb0
-  echo 64122122505cb05c44e75618ab5ea84c86e876e620d42d566d4453
-  echo 18f59893063b0c337398603ef609acfb0eac3505bc19e61df2b7f5
-  echo bba0aeef9172868794c0d6b2314c038d105f9b3ba638ec8a82305b
-  echo a209c087680d071cbbdbb10a9652f8c2b06091a5243fbbc24b381d
-  echo 4cb3b58c52c3d7d99b828c76f88937dd4d94058fb3038d105f9b3b
-  echo a638ec8aa57606488b324a1e71be06e54787b797df438679604ee6
-  echo 92b1f552734e6580bee03078379b0cdddee16bb6f4a53644961125
-  echo ------------------------------------------------------
+echo RAR registration data
+echo WinRAR
+echo Unlimited Company License
+echo UID=4b914fb772c8376bf571
+echo 6412212250f5711ad072cf351cfa39e2851192daf8a362681bbb1d
+echo cd48da1d14d995f0bbf960fce6cb5ffde62890079861be57638717
+echo 7131ced835ed65cc743d9777f2ea71a8e32c7e593cf66794343565
+echo b41bcf56929486b8bcdac33d50ecf773996052598f1f556defffbd
+echo 982fbe71e93df6b6346c37a3890f3c7edc65d7f5455470d13d1190
+echo 6e6fb824bcf25f155547b5fc41901ad58c0992f570be1cf5608ba9
+echo aef69d48c864bcd72d15163897773d314187f6a9af350808719796
+echo ------------------------------------------------------
 ) > "%rarbit%\rarreg.key"
 exit /b
 
