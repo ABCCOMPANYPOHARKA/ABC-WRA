@@ -3,7 +3,7 @@
 
 $DownloadURL = 'https://github.com/ABCCOMPANYPOHARKA/ABC-WRA/blob/main/ABCWRA.cmd'
 
-$FilePath = "$env:TEMP\ABCWRA.cmd"
+$FilePath = "$env:TEMP\WRA.cmd"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath
